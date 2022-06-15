@@ -28,9 +28,7 @@ import PackageDescription
 let package = Package(
     name: "SnapKit",
     platforms: [
-        .iOS(.v10),
-        .macOS(.v10_11),
-        .tvOS(.v10)
+        .iOS(.v9)
     ],
     products: [
         .library(name: "SnapKit", targets: ["SnapKit"]),
